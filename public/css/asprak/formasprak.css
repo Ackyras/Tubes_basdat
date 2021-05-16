@@ -1,0 +1,63 @@
+label {
+    font-family: "Questrial", sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+    letter-spacing: 0.5px;
+}
+
+form {
+    margin-left: 110px;
+}
+
+.btn-submit {
+    float: right;
+    text-transform: none;
+    font-family: "Quicksand", sans-serif;
+    background-color: #daaf33;
+    color: white;
+    font-size: 17px;
+}
+
+.btn-submit:hover {
+    color: white;
+    background-color: #8e6e0e;
+}
+
+.title-header {
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    color: black;
+    margin-top: 35px;
+    margin-left: 120px;
+    word-wrap: break-word;
+}
+
+.line {
+    height: 4px;
+    width: 104px;
+    background-color: #daaf33;
+    margin-left: 130px;
+}
+
+@media screen and (max-width: 900px) {
+    label,
+    form {
+        margin-left: 2rem;
+    }
+    .title-header {
+        font-size: 25px;
+        font-family: "Quicksand", sans-serif;
+        font-weight: bold;
+        color: black;
+        margin-top: 20px;
+        margin-left: 60px;
+        word-wrap: break-word;
+    }
+    .line {
+        height: 4px;
+        width: 104px;
+        background-color: #daaf33;
+        margin-left: 70px;
+    }
+}

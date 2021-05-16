@@ -1,0 +1,28 @@
+.form-admin {
+    width: 40%;
+}
+
+.modal-body > .foto-barang {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-body > .nama-barang {
+    width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+pre {
+    font-family: inherit;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.table-responsive {
+    padding-bottom: 1em;
+}

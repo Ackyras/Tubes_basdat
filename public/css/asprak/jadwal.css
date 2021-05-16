@@ -1,0 +1,35 @@
+.title-header {
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    color: black;
+    margin-top: 35px;
+    margin-left: 80px;
+    word-wrap: break-word;
+}
+
+.line {
+    height: 4px;
+    width: 104px;
+    background-color: #daaf33;
+    margin-left: 90px;
+}
+
+.card {
+    height: fit-content;
+    width: 80%;
+}
+
+.row-2 {
+    margin-top: 8%;
+}
+
+.thead {
+    background-color: #daaf33;
+}
+
+th,
+td {
+    font-family: "Quicksand", sans-serif;
+    color: black;
+}

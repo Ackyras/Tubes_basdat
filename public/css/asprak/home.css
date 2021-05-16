@@ -1,0 +1,37 @@
+.title-header {
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    color: black;
+    margin-top: 35px;
+    margin-left: 80px;
+}
+
+.line {
+    height: 4px;
+    width: 104px;
+    background-color: #daaf33;
+    margin-left: 90px;
+}
+
+h5 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: normal;
+    color: black;
+    margin-left: 80px;
+}
+
+.text {
+    font-family: "Poppins", sans-serif;
+    color: black;
+    margin-left: 80px;
+    width: 80%;
+}
+
+a {
+    color: rgb(177, 39, 39);
+}
+
+.alert-success {
+    margin-left: 80px;
+}

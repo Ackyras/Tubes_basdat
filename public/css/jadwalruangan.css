@@ -1,0 +1,83 @@
+.title-header {
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    color: black;
+    margin-top: 35px;
+    margin-left: 80px;
+    word-wrap: break-word;
+}
+
+.title-ruang {
+    font-size: 20px;
+    font-family: "Quicksand", sans-serif;
+    color: black;
+    margin-top: 10px;
+    margin-left: 80px;
+    word-wrap: break-word;
+}
+
+.line {
+    height: 4px;
+    width: 104px;
+    background-color: #daaf33;
+    margin-left: 90px;
+}
+
+.card {
+    height: fit-content;
+    width: 80%;
+}
+
+.row-2 {
+    margin-top: 5%;
+}
+
+.thead {
+    background-color: #daaf33;
+}
+
+th,
+td {
+    font-family: "Quicksand", sans-serif;
+    color: black;
+}
+
+.btn-submit {
+    text-transform: none;
+    font-family: "Quicksand", sans-serif;
+    background-color: #daaf33;
+    color: white;
+    padding: 0.3em;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.btn-submit:hover {
+    color: white;
+    background-color: #8e6e0e;
+}
+
+.modal-tile {
+    color: black;
+}
+
+.btn-link {
+    background-color: #daaf33;
+}
+
+.btn-link:hover {
+    background-color: #8a6803;
+}
+
+.btn-link:active,
+.btn-link:focus,
+.btn-link:visited {
+    background-color: #8a6803;
+}
+
+.collapse {
+    border: 3px;
+    border-style: solid;
+    border-color: #daaf33;
+}

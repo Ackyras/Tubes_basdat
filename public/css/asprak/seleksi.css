@@ -1,0 +1,72 @@
+.title-header {
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    color: black;
+    margin-top: 35px;
+    margin-left: 80px;
+    word-wrap: break-word;
+}
+
+.line {
+    height: 4px;
+    width: 104px;
+    background-color: #daaf33;
+    margin-left: 90px;
+}
+
+h3 {
+    font-family: "Questrial", sans-serif;
+    font-size: 15px;
+    color: black;
+    margin-left: 80px;
+}
+
+.ul-matkul {
+    list-style-type: none;
+}
+
+.link {
+    color: red;
+    font-family: "Questrial", sans-serif;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: rgb(133, 14, 14);
+}
+
+.card {
+    height: 50vh;
+    width: 50%;
+}
+
+.row-2 {
+    margin-top: 8%;
+}
+
+li {
+    margin-top: 0.4rem;
+}
+
+.btn-logout {
+    float: right;
+    text-transform: none;
+    font-family: "Quicksand", sans-serif;
+    background-color: #daaf33;
+    color: white;
+    font-size: 17px;
+}
+
+.btn-logout:hover {
+    color: white;
+    background-color: #8e6e0e;
+}
+
+@media screen and (max-width: 576px) {
+    .card {
+        height: 40vh;
+        width: 75%;
+    }
+}

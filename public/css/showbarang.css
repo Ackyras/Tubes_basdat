@@ -1,0 +1,62 @@
+.title-header {
+    font-family: "Quicksand", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 33px;
+    margin-left: 68px;
+    color: #000;
+}
+
+.line {
+    width: 104px;
+    height: 4px;
+    background-color: #DAAF33;
+    margin-left: 80px;
+}
+
+.image-barang {
+    width: 290px;
+    height: 185px;
+    margin-left: 70px;
+    margin-top: 69px;
+}
+
+.title-detail {
+    font-family: "Quicksand", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 48px;
+    margin-left: 35px;
+}
+
+.line-detail {
+    width: 39px;
+    height: 3px;
+    background-color: #DAAF33;
+    margin-left: 36px;
+}
+
+div + pre {    
+    margin-top: 14px;
+}
+
+.text-detail {
+    font-size: 18px;
+    font-family: "Quicksand", sans-serif;
+    color: #000;
+    margin-left: 36px;
+}
+
+.btn-form {
+    width: 138px;
+    position: absolute;
+    color: white;
+    background-color: #DAB033;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: none;
+    bottom: 64px;
+    right: 69px;
+}
