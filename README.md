@@ -2,9 +2,21 @@
 
 ## Getting Started
 
-# Requirement
+### Requirement
 
+-   [Composer](https://getcomposer.org/)
+-   [Laravel](https://laravel.com/docs/8.x)
+-   [XAMPP(Apache & Myssql)](https://www.apachefriends.org/index.html)
 
+### Running Program
+
+-   Clone this repository https://github.com/Ackyras/Tubes_basdat.git
+-   Install composer in project direcotry
+    > `composer install`
+-   Copy .env.example, and paste it as .env
+    > `cp .env.example .env`
+-   Open .env file, and change DB_DATABASE, DB_USERNAME, and DB_PASSWORD accoording to your own database
+    > ![.env config example](/public/img/readme/env-db-config.png)
 
 <!-- <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
