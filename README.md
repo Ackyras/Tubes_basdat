@@ -24,8 +24,11 @@
     > `php artisan migrate --seed`
 -   Link storage to Asset. Code in terminal :
     > `php artisan storage:link`
--   Run local serve. Code in terminal : 
-    >`php artisan serve`
+-   Run local serve. Code in terminal :
+    > `php artisan serve`
+-   Install laravel/ui
+    > `composer require laravel/ui`
+-   Open folder vendor/laravel/ui/auth-backend/AuthenticatesUsers.php and find `function username()`, then change `return email` to `return username`
 <!-- <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
