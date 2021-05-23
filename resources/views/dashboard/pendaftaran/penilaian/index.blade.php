@@ -43,7 +43,11 @@
                             @endif
                             @endforeach
                         </td>
-                        <td><a href="{{ $penilaian->jawaban }}">Jawaban</a></td>
+                        @if ($penilaian->jawaban == null)
+                            <td>Belum mengirim jawaban!</td>
+                        @else
+                            <td><a href="{{ $penilaian->jawaban }}">Jawaban</a></td>
+                        @endif
                         <td>{{$penilaian->nilai}}</td>
                         <td>
                             <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#data{{$penilaian->id}}">Detail</button>
