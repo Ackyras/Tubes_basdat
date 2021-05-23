@@ -18,6 +18,9 @@
 @endsection
 
 @section('content')
+@if ($matkul==null)
+    <h1>Seleksi belum Dimulai, periksa kembali jadwal seleksi</h1>
+@else
 <div class="row">
     <h4 class="p-2 title-header">Uji Seleksi @if($matkul) {{$matkul->daftarmatakuliah->nama}} @endif</h4>
     <div class="line"></div>
@@ -52,6 +55,7 @@
         @endif
     </div>
 </div>
+@endif
 @endsection
 
 @section('js')

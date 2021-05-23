@@ -208,8 +208,11 @@ class DaftarAsprakController extends Controller
             ->where('awal_seleksi', '<=', Carbon::now()->setTimezone('Asia/Jakarta')->format('H:i:s'))
             ->where('akhir_seleksi', '>', Carbon::now()->setTimezone('Asia/Jakarta')->format('H:i:s'))
             ->first();
-
-        $waktu = $matkul->akhir_seleksi;
+        if ($matkul == null) {
+            $waktu = 0;
+        } else {
+            $waktu = $matkul->akhir_seleksi;
+        }
         return view('asprak.show', compact('master', 'matkul', 'waktu'));
     }
 
