@@ -50,6 +50,7 @@
                                             Login
                                         </button>
                                     </form>
+                                    <small><a href="{{route('calonasprak.index')}}">Sign in as guest!</a></small>
                                 </div>
                             </div>
                         </div>
