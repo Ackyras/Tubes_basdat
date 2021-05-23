@@ -22,8 +22,11 @@ use Illuminate\Support\Facades\Auth;
 |
 */
 
-Route::view('/', 'dashboard.pendaftaran.index')->name('home');
-Route::view('/home', 'dashboard.pendaftaran.index')->name('home');
+// Route::view('/', 'dashboard.pendaftaran.index')->name('home');
+// Route::view('/home', 'dashboard.pendaftaran.index')->name('home');
+Route::get('/', function () {
+    return redirect()->route('calonasprak.index');
+})->name('home');
 
 Route::resource('calonasprak',          DaftarAsprakController::class)->only(['index', 'store']);
 Route::get('calonasprak/login',         [DaftarAsprakController::class, 'login'])->name('calonasprak.login');
